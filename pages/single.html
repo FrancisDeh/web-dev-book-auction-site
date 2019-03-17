@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sky Light Books | Single Book</title>
+
+    <!--Styles -->
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/single.css" rel="stylesheet">
+    <link  href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body class="home">
+<!--Header Navigation Bar -->
+<header class="header">
+    <h1><i class="fa fa-shopping-cart" style="color: orangered"></i> Sky Light Books</h1>
+    <ul class = "link-navigation">
+        <li ><a href = "../index.html"><i class="fa fa-home"></i> home</a></li>
+        <li><a href = "signin.html"><i class="fa fa-sign-in"></i> sign in</a></li>
+        <li ><a href = "signup.html"><i class="fa fa-user-circle-o"></i> sign up</a></li>
+        <li class = "home-link"><a href = "allbooks.html"><i class="fa fa-book"></i> books</a></li>
+        <li ><a href = "checkout.html"><i class="fa fa-cart-plus"></i> checkout (<span class="items">2</span>)</a></li>
+    </ul>
+</header>
+<!--Main Content -->
+<main>
+<h3 class="bookDetailsHeader">Book Details</h3>
+<div class="booKDisplayDiv">
+    <img src="../images/books/book7.jpg" height="170px" width="150px">
+    <div class="bookDetails">
+        <h3>Steve Jobs, The Man and Apple</h3>
+        <p>GHC 14.00</p>
+        <p><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="fa fa-star-half-full"></i></p>
+        <button onclick="addToCart();"><i class="fa fa-cart-plus" style="color: orangered" ></i> Add to Cart </button>
+    </div>
+</div>
+
+<h3 class="bookDescriptionHeader">Book Descriptions</h3>
+<div class="bookDescription">
+    <p>The book "Steve Jobs, The Man and Apple" talks about his struggle to glory, from zero to hero.
+    The book contains 500 pages worth the following content.
+    </p>
+    <ul>
+        <li>His Childhood and Education</li>
+        <li>His Childhood and Love for Technology</li>
+        <li>The Storms begin at College</li>
+        <li>The Drive sets in</li>
+        <li>Is Education the key?</li>
+        <li>The first Idea, "Apple"</li>
+        <li>Towards the Vision</li>
+        <li>The World must hear.</li>
+        <li>The Disappointment</li>
+        <li>Victory</li>
+        <li>Celebrating Success</li>
+        <li>Other things that matter</li>
+        <li>Conclusion and Appendix</li>
+    </ul>
+</div>
+
+    <h3 class="bookDescriptionHeader">Recommended Books</h3>
+    <div class="recommendedBooks">
+        <img src="../images/books/book1.jpg" height="150px"  width="150px">
+        <img src="../images/books/book2.jpg" height="150px" width="150px">
+        <img src="../images/books/book3.jpg" height="150px" width="150px">
+        <img src="../images/books/book4.jpg" height="150px" width="150px">
+        <img src="../images/books/book6.jpg" height="150px" width="150px">
+        <img src="../images/books/book9.jpg" height="150px" width="150px">
+    </div>
+</main>
+
+<footer>
+    <p> &copy; Copyright 2018</p>
+</footer>
+
+<script src="../js/allbooks.js" type="text/javascript"></script>
+</body>
+</html>

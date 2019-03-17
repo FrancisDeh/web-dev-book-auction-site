@@ -1,0 +1,82 @@
+main {
+    margin-bottom: 100px;
+}
+.booKDisplayDiv {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.bookDetailsHeader {
+    margin-top: 90px;
+    margin-left: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 400px;
+}
+.bookDescriptionHeader {
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 400px;
+}
+
+.bookDetails {
+    margin-left: 200px;
+    margin-top: -160px;
+}
+
+.bookDetails h3{
+    font-size: 25px;
+    font-weight: normal;
+    padding: 10px;
+}
+.bookDetails p {
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: teal;
+    font-weight: normal;
+}
+
+.bookDetails p i {
+    color: orangered;
+}
+
+button {
+    margin-left: 10px;
+    color: white;
+    background-color: teal;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid orangered;
+}
+
+.bookDescription {
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.bookDescription p {
+    font-size: 19px;
+    font-weight: normal;
+    width: 700px;
+}
+.bookDescription ul {
+    font-size: 18px;
+}
+
+ .recommendedBooks {
+    text-align: center;
+}
+ .recommendedBooks img {
+    margin: 15px;
+}

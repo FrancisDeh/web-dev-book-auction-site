@@ -1,0 +1,99 @@
+main {
+    margin-top: 80px;
+}
+.leftView {
+    float: left;
+    width: 50%;
+}
+
+.leftView h3, .rightView h3 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rightView {
+    float: right;
+    width: 50%;
+}
+form i {
+    color: teal;
+    width: 30px;
+}
+
+form {
+    margin-left: 20px;
+}
+form p {
+    font-weight: bold;
+}
+hr {
+    width: 200px;
+}
+
+input[type="text"], input[type="date"] {
+    vertical-align: center;
+    padding: 5px;
+    width: 400px;
+    height: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Palatino Linotype';
+}
+input[type="checkbox"] {
+    margin: 10px;
+    width: 200px;
+}
+input:focus {
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+
+form button i{
+    color: white;
+}
+form button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 260px;
+    margin-bottom: 20px;
+}
+
+.rightView, .leftView {
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.rightView .description {
+    margin-top: -150px;
+    margin-left: 160px;
+}
+
+.description h4 {
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.description p {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.rightView .descriptionDiv {
+    border-bottom: 2px  solid grey;
+    height: 160px;
+    width: 400px;
+}
+
+.total {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}

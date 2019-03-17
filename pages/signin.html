@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sky Light City Books | Sign In Page</title>
+    <!--Styles -->
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/signup.css" rel="stylesheet">
+    <link  href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body class = "home">
+<!--Header Navigation Bar -->
+<header class="header">
+    <h1><i class="fa fa-shopping-cart" style="color: orangered"></i> Sky Light Books</h1>
+    <ul class = "link-navigation">
+        <li ><a href = "../index.html"><i class="fa fa-home"></i> home</a></li>
+        <li class = "home-link"><a href = "signin.html"><i class="fa fa-sign-in"></i> sign in</a></li>
+        <li ><a href = "signup.html"><i class="fa fa-user-circle-o"></i> sign up</a></li>
+        <li><a href = "allbooks.html"><i class="fa fa-book"></i> books</a></li>
+        <li><a href = "checkout.html"><i class="fa fa-cart-plus"></i> checkout (2)</a></li>
+    </ul>
+</header>
+<!--Main Content -->
+<main>
+    <nav>
+    </nav>
+    <article>
+        <h3 class="signupTitle">Welcome, already registered, sign in</h3>
+        <hr>
+        <form onsubmit="event.preventDefault(); validateSigninForm();">
+            <div>
+                <i class="fa fa-envelope-o fa-2x"></i>
+                <input type="email" id="email" placeholder="someone@gmail.com" autofocus>
+            </div>
+            <div>
+                <i class="fa fa-key fa-2x"></i>
+                <input type="password" id="password" placeholder="password">
+            </div>
+
+            <button>Submit <i class="fa fa-database"></i> </button>
+        </form>
+
+        <h3 class="signupTitle">or, sign in with</h3>
+        <hr>
+        <button class="fbSignIn" onclick="otherSignIn('facebook');"><i class="fa fa-facebook-f"></i> </button>
+        <button class="gSingIn" onclick="otherSignIn('google');"><i class="fa fa-google"></i> </button>
+        <button class="tSignIn" onclick="otherSignIn('twitter');"><i class="fa fa-twitter"></i> </button>
+    </article>
+</main>
+
+<script src="../js/signup.js" type="text/javascript"></script>
+</body>
+</html>

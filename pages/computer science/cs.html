@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sky Light Books | All Books</title>
+
+    <!--Styles -->
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/books.css" rel="stylesheet">
+    <link  href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body class="home">
+<!--Header Navigation Bar -->
+<header class="header">
+    <h1><i class="fa fa-shopping-cart" style="color: orangered"></i> Sky Light Books</h1>
+    <ul class = "link-navigation">
+        <li ><a href = "../../index.html"><i class="fa fa-home"></i> home</a></li>
+        <li><a href = "../signin.html"><i class="fa fa-sign-in"></i> sign in</a></li>
+        <li ><a href = "../signup.html"><i class="fa fa-user-circle-o"></i> sign up</a></li>
+        <li class = "home-link"><a href = "../allbooks.html"><i class="fa fa-book"></i> books</a></li>
+        <li ><a href = "../checkout.html"><i class="fa fa-cart-plus"></i> checkout (<span class="items">2</span>)</a></li>
+    </ul>
+</header>
+<!--Main Content -->
+<div class="searchDiv">
+    <form>
+        <i class="fa fa-search fa-2x"></i>
+        <input type="text" placeholder="search for books by title or author...">
+        <button type="submit">search <i class="fa fa-search-plus"></i> </button>
+    </form>
+</div>
+<!--<hr>-->
+<main>
+    <div class="navList">
+        <h3><i class="fa fa-filter"></i> filter section</h3>
+        <nav>
+            <form>
+                <div>
+                    <p>filter by year</p>
+                    <input id="yeara" type="checkbox">
+                    <label for="yeara">2018</label>
+                    <br>
+                    <input id="yearb" type="checkbox">
+                    <label for="yearb">2017</label>
+                    <br>
+                    <input id="yearc" type="checkbox">
+                    <label for="yearc">2016</label>
+                    <br>
+                    <input id="year" type="checkbox">
+                    <label for="year">below 2016</label>
+                    <br>
+                </div>
+
+                <div>
+                    <p>filter by price</p>
+                    <input id="pricea" type="checkbox">
+                    <label for="pricea">above GHC 100</label>
+                    <br>
+                    <input id="priceb" type="checkbox">
+                    <label for="priceb">GHC 100</label>
+                    <br>
+                    <input id="pricec" type="checkbox">
+                    <label for="pricec">GHC 50</label>
+                    <br>
+                    <input id="price" type="checkbox">
+                    <label for="price">below GHC 50</label>
+                    <br>
+                </div>
+
+                <div class="categories">
+                    <p>categories</p>
+                    <span><i class="fa fa-heartbeat"></i> <a href="../health/h.html"> Health</a></span>
+                    <br>
+                    <span><i class="fa fa-user-md"></i> <a href="../science/s.html"> Science</a></span>
+                    <br>
+                    <span><i class="fa fa-laptop"></i> <a href="../computer%20science/cs.html"> Computer Science</a></span>
+                    <br>
+                    <span><i class="fa fa-cogs"></i> <a href="../engineering/eng.html"> Engineering</a></span>
+                    <br>
+                    <span><i class="fa fa-child"></i> <a href="../kids/k.html"> Kids</a></span>
+                    <br>
+                </div>
+            </form>
+        </nav>
+    </div>
+    <div class="bookList">
+        <h3>Displaying Computer Science books</h3>
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs1.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 14.00</p>
+
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs2.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 17.00</p>
+
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"> <img src="../../images/books/computer%20science/cs3.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 22.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs4.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 17.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"> <img src="../../images/books/computer%20science/cs5.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 27.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs6.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 17.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs7.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 28.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs8.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 17.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs9.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 14.00</p>
+        </div>
+
+        <div class="singleBook">
+            <a href="../single2.html"><img src="../../images/books/computer%20science/cs10.png" height="150px" width="150px"></a>
+            <p><i class="fa fa-cart-plus fa-2x" onclick="addToCart();"></i> GHC 10.00</p>
+        </div>
+
+        <div class="pagination">
+            <p><i class="fa fa-chevron-left fa-2x"></i> <span><a href="../allbooks.html"> Prev</a> | <a href="cs2.html"> Next</a></span> <i class="fa fa-chevron-right fa-2x"></i> </p>
+        </div>
+    </div>
+
+
+</main>
+
+<footer>
+    <p> &copy; Copyright 2018</p>
+</footer>
+
+<script src="../../js/allbooks.js" type="text/javascript"></script>
+</body>
+</html>

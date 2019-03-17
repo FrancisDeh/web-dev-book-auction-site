@@ -1,0 +1,180 @@
+.searchDiv {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.searchDiv form i {
+    color: dodgerblue;
+    width: 20px;
+    margin-top: 10px;
+}
+.searchDiv form button i{
+    color: white;
+}
+
+.searchDiv form button{
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.searchDiv input {
+    padding: 5px;
+    width: 800px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    vertical-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Palatino Linotype';
+}
+
+hr {
+    width: 400px;
+}
+
+main {
+    background-color: #eeeeee;
+    width: 96%;
+    border-radius: 15px;
+    margin-left: 2%;
+    height: 620px;
+    margin-bottom: 100px;
+}
+
+.navList {
+    float: left;
+    width: 20%;
+}
+
+.bookList {
+    float: right;
+    width: 75%;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 500px;
+    padding-bottom: 10px;
+}
+h3 i {
+    color: orangered;
+}
+.navList nav {
+    margin-top: 20px;
+    margin-left: 4%;
+    width: 250px;
+    height: 460px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 8px 3px silver;
+}
+.navList h3 {
+    margin-left: 30px;
+    width: 200px;
+}
+.bookList h3 {
+   text-align: center;
+    margin-left: 10px;
+}
+
+.navList p {
+    font-weight: normal;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+    width: 19px;
+    height: 19px;
+}
+
+label {
+    vertical-align: top;
+    font-size: 19px;
+}
+
+.categories i {
+    color: orangered;
+    width: 15px;
+}
+.categories span {
+    margin-left: 20px;
+}
+
+.categories a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: normal;
+   padding: 10px;
+    color: black;
+}
+.categories a:hover {
+    color: teal;
+}
+
+.singleBook {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 20px;
+    background-color: white;
+    height: 220px;
+    width: 150px;
+    cursor: pointer;
+    box-shadow: 0 0 4px 1px silver;
+}
+.singleBook:hover {
+    box-shadow: 0 0 8px 3px silver;
+}
+
+.singleBook p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: teal;
+}
+.singleBook i {
+    color: orangered;
+}
+
+.singleBook i:hover {
+    color: teal;
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.pagination i {
+    color: teal;
+}
+
+.pagination span {
+    color: teal;
+    font-size: 25px;
+}
+.pagination a {
+    text-decoration: none;
+    display: inline-block;
+    color: teal;
+
+    padding-bottom: 5px;
+}
+.pagination a:hover {
+    color: orangered;
+}

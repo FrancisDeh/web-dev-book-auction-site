@@ -1,0 +1,274 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+/* end reset browser styles */
+
+@font-face{
+    font-family:"Bleeding Cowboys";
+    src: url("../fonts/Bleeding_Cowboys.ttf") format("truetype");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*The header refers to the navigation bar*/
+
+
+/*The name of the site*/
+h1 {
+    font-family: "Bleeding Cowboys";
+    font-size: 300%;
+    margin-left:1%;
+    color: white;
+    float: left;
+    cursor: pointer;
+    margin-top:1%;
+    text-shadow: 6px -6px 8px rgb(0,0,0);
+}
+
+h1:hover {
+    color: orangered;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width:100%;
+    height: 500px;
+    background-image: url("../images/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*The navigation links*/
+ul.link-navigation{
+    display: inline-block;
+    list-style-type: none;
+    float:right;
+    width:50%;
+}
+
+ul.link-navigation li{
+    border: none;
+    width:120px;
+    float:left;
+    padding-top: 25px;
+    padding-left:14px;
+    height: 100%;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    /*font-weight: bold;*/
+    font-family: serif;
+}
+
+ul.link-navigation li:hover{
+    border-top:6px solid white;
+    cursor:pointer;
+}
+.home .home-link {
+    border-top:6px solid white;
+}
+.home .home-link a{
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: teal;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.header div {
+    margin-top: 200px;
+}
+
+.header div h3 {
+    font-weight: normal;
+    font-family: 'Palatino Linotype';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 6px -6px 8px rgb(0,0,0);
+}
+.header div h3:hover, .header div p:hover {
+    color: dodgerblue;
+}
+
+.header div p {
+    font-weight: normal;
+    font-family: 'Palatino Linotype';
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 6px -6px 8px rgb(255,255,255);
+}
+.header nav {
+    text-align: center;
+    margin-top: 20px;
+}
+.header nav a {
+    border: 2px solid white;
+    background-color: orangered;
+    color: white;
+    margin-left: 5px;
+    font-size: 30px;
+    padding: 10px;
+}
+.header nav a:hover {
+    background-color: dodgerblue;
+}
+main {
+    margin-top: 520px;
+}
+hr {
+    text-align: center;
+    width: 500px;
+}
+main h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+main .featuredBooks {
+    text-align: center;
+}
+main .featuredBooks img {
+    margin: 15px;
+}
+.aboutUs {
+    padding: 15px;
+    margin: 15px;
+    height: 220px;
+}
+.aboutUsText {
+    margin-left: 150px;
+    float: left;
+    width: 40%;
+    font-size: 20px;
+    font-weight: normal;
+}
+.aboutUsText p {
+    width: 400px;
+}
+
+.aboutUsLogo {
+    margin-top: 50px;
+    float: right;
+    width: 40%;
+}
+
+
+form i {
+    color: dodgerblue;
+    width: 30px;
+    margin-top: 10px;
+}
+form button i{
+    color: white;
+}
+.contactUs {
+    padding: 5px;
+    margin: 10px;
+}
+.contactUs p {
+    font-size: 20px;
+    font-weight: normal;
+}
+.contactUsForm {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-left: 20px;
+}
+.contactUsImage {
+    float: right;
+    width: 40%;
+    margin-bottom: 200px;
+}
+form button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+input, textarea {
+    padding: 5px;
+    width: 300px;
+    height: 25px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Palatino Linotype';
+}
+
+textarea {
+    height: 70px;
+}
+input:focus. textarea:focus {
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.ceoTitle {
+    margin-left: -20px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.contactUsImage a {
+    margin-left: 10px;
+}
